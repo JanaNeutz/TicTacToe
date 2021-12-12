@@ -14,7 +14,7 @@ public class Board {
     private static final int COLUMNS = 3;
     private static final String EMPTY_CELL = "   ";
 
-    private final String[][] gameBoard;
+    protected final String[][] gameBoard;
 
     public Board() {
         this.gameBoard = new String[ROWS][COLUMNS];
